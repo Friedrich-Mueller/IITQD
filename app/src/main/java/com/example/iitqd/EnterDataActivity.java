@@ -97,27 +97,27 @@ public class EnterDataActivity extends AppCompatActivity {
 
         Intent intent = new Intent(this, ConfirmDataActivity.class);
 
-        EditText editText = (EditText) findViewById(R.id.editText_DATE);
+        EditText editText = findViewById(R.id.editText_DATE);
         String message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE_DATE, message);
 
-        editText = (EditText) findViewById(R.id.editText_TIME);
+        editText = findViewById(R.id.editText_TIME);
         message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE_TIME, message);
 
-        editText = (EditText) findViewById(R.id.editText_GL);
+        editText = findViewById(R.id.editText_GL);
         message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE_GL, message);
 
-        editText = (EditText) findViewById(R.id.editText_CU);
+        editText = findViewById(R.id.editText_CU);
         message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE_CU, message);
 
-        editText = (EditText) findViewById(R.id.editText_BOLUS);
+        editText = findViewById(R.id.editText_BOLUS);
         message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE_BOLUS, message);
 
-        editText = (EditText) findViewById(R.id.editText_BASIS);
+        editText = findViewById(R.id.editText_BASIS);
         message = editText.getText().toString();
         intent.putExtra(EXTRA_MESSAGE_BASIS, message);
 

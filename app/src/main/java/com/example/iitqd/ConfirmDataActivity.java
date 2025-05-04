@@ -71,7 +71,7 @@ public class ConfirmDataActivity extends AppCompatActivity {
         textView = findViewById(R.id.textView_BASIS);
         textView.setText(basis);
 
-        btnAddData = (Button)findViewById(R.id.button_confirm_entry);
+        btnAddData = findViewById(R.id.button_confirm_entry);
 
         AddData();
     }

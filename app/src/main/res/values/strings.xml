@@ -8,7 +8,9 @@
     <string name="enter_CU">Carb Units</string>
     <string name="enter_BOLUS">Bolus Units (quick Insulin)</string>
     <string name="enter_BASIS">Basis Units (slow insulin)</string>
-    <string name="confirm_entry">Confirm Entry</string>
-    <string name="enter_data">enter_data</string>
-    <string name="fetch_libre_data">Fetch Libre Data</string>
+
+
+    <string name="new_entry">New Entry</string>
+    <string name="create_entry">Create Entry</string>
+
 </resources>
